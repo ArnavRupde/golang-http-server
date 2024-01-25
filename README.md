@@ -20,19 +20,19 @@
    Ex: `go mod tidy`
    This will create a go.sum file
    
-5) Run go file directl using `go run <file_name>`
+5) Run go file directly using `go run <file_name>`
    Ex: `go run main.go`
    
 7) We can also compile code to build executable binary
    Run `go build <file_name>` or `go build .`
    Ex: `go build main.go`
-   This will create an executable binar with same name by default
+   This will create an executable binary with same name by default
 
    We can also specify output binary filename
    Run `go build -o <filename> .`
    Ex: `go build -o server .`
 
-   We can directl execute generated binary
+   We can directly execute generated binary
    Ex: `./server`
 
 # Dockerize application
